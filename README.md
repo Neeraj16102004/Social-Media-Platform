@@ -48,10 +48,13 @@ Copy code
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone the Repository
+### 
+1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/social-media-backend.git
 cd social-media-backend
+
+###
 2. Configure Database
 Update application.properties with your database credentials:
 
@@ -61,10 +64,12 @@ spring.datasource.url=jdbc:mysql://localhost:3306/socialmedia
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
-3. Run the Application
+###
+ 3. Run the Application
 bash
 Copy code
 ./mvnw spring-boot:run
+###
 4. Test API Endpoints
 Register/Login User
 
@@ -80,7 +85,7 @@ Receive notifications
 
 Use Postman or cURL to test the APIs.
 
-📖 Learning Outcomes
+## 📖 Learning Outcomes
 Practical implementation of JWT Authentication in Spring Boot.
 
 Building relationships (One-to-Many, Many-to-Many) with JPA/Hibernate.
@@ -89,5 +94,5 @@ Real-world social media features: likes, comments, follows, notifications.
 
 Structuring a scalable backend project with clean separation of concerns.
 
-📝 License
+## 📝 License
 This project is for learning purposes and open for personal use.
